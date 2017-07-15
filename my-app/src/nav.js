@@ -22,11 +22,11 @@ class Nav extends Component {
     render() {
         return (
             <div>
-                <div className="App">
-                    <img src={logo} alt="logo" className="logo"/>
+                <div className="lyx_App">
+                    <img src={logo} alt="logo" className="lyx_logo"/>
                 </div>
-                <ul className="nav">
-                    <div className="box">
+                <ul className="lyx_nav">
+                    <div className="lyx_Box">
                         {this.state.arr.map(function(x,i){
                                 return <li key={i}><a href={x.url}>{x.con}</a></li>
                             })
