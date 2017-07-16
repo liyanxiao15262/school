@@ -1,15 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Introduction from './Introduction';
-import Recommend from './Recommend';
-import Policy from './Policy';
+import './resize.css';
+import Nav from './nav';
+import Banner from './banner';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<div>
-    <Introduction />
-    <Recommend />
-    <Policy />
-</div>, document.getElementById('root'));
+ReactDOM.render(<div><Nav /><Banner/></div>, document.getElementById('root'));
 registerServiceWorker();

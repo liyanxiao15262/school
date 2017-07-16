@@ -1,0 +1,29 @@
+.lyx_App {
+    width: 100%;
+    background:#004B85;
+    height: 44px;
+    line-height: 44px;
+}
+.lyx_Box{
+    width: 1000px;
+    margin: 0 auto;
+}
+.lyx_logo{
+    margin-left: 140px;
+    display: block;
+}
+.lyx_nav{
+    width: 100%;
+    height: 40px;
+    background: #272636;
+}
+.lyx_nav li{
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 35px;
+}
+.lyx_nav li a{
+    color: #fff;
+    font-size: 13px;
+}
