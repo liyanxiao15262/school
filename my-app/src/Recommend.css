@@ -1,0 +1,39 @@
+.kt-recom{
+    width:100%; height:580px; margin:0 auto; background:#2eafbb;
+}
+.kt-recom-box{
+    width:1000px; height:580px; margin:0 auto;
+}
+.kt-recom h1{
+    font-size:40px; color:#fff; text-align:center; padding:40px 0;
+}
+.kt-recom ul{
+    overflow: hidden;
+}
+.kt-recom li{
+    float:left;margin-right:47px; margin-bottom:26px;
+}
+.kt-recom .empty{
+    margin-right: 0;
+}
+.kt-recom li .li-link{
+    width:300px; height:150px; display:block; border:#fff solid 1px;
+}
+.kt-recom li .li-link h4 {
+    position: relative;color: #fff;font-size: 24px;text-align: center;width: 200px;margin: 0 auto;padding: 13px 0;
+}
+.kt-recom li .li-link h4 span{
+    font-size:20px;font-weight:normal;
+}
+.kt-recom li .li-link p{
+    font-size:14px; color:#fff; padding:0 18px 18px 18px; line-height:22px;
+}
+.kt-recom .know-more{
+    height:90px;
+}
+.kt-recom .know-more a{
+    width:250px; height:50px; margin:0 auto; display:block;border-radius:2px; background:#861717; font-size:16px; text-align:center; color:#fff; line-height:50px;
+}
+.kt-recom .li-link:hover{
+    transition:all 0.3s linear; background:#36797f;
+}
