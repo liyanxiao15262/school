@@ -2,7 +2,7 @@
     width:100%;
 }
 .kt-vapp-box{
-    width: 1000px;margin: 0 auto; overflow: hidden;padding: 40px 0;
+    width: 1000px;margin: 0 auto; overflow: hidden;padding: 40px 0;cursor:pointer;
 }
 .kt-appt{
     width:1000px; height:auto; margin:0 auto; text-align:center;
@@ -17,7 +17,7 @@
     overflow: hidden;
 }
 .kt-vapp ul li{
-    float: left;width: 25%;text-align: center;
+    float: left;width: 25%;text-align: center;cursor:pointer;
 }
 .kt-vapp ul li img{
     width:90%;
