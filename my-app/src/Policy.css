@@ -7,11 +7,12 @@
 .kt-policy-box h1{
     font-size:40px; color:#252525; padding:40px 0;
 }
+/* 顶部 */
 .kt-policy-top{
     width:1000px; height:195px; margin:0 auto;
 }
 .kt-policy-top .look{
-    width:283px; height:183px; float:left; background:#d65156; display:block; text-align:center;cursor: pointer;
+    width:283px; height:183px; float:left; background:#d65156; display:block; text-align:center;cursor: pointer;text-decoration: none;
 }
 .kt-policy-top .look:hover{
     background:#233b51;transition:all 0.5s linear;
@@ -28,6 +29,30 @@
 .intro-pub{
     width:348px; height:183px; float:left; padding-left:30px;
 }
+.intro-pub-tit{
+    width:348px; height:47px; float:left;
+}
+.intro-pub-tit .intro-pub-tita{
+    font-size:20px; font-weight:bold; color:#252525;font-family:"Microsoft YaHei",Arial; float:left;
+}
+.intro-pub-tit .intro-pub-titb{
+    font-size:12px;font-family:"Microsoft YaHei",Arial;float:left;
+}
+.intro-pub h4{
+    font-size:14px; color:#252525;font-family:"Microsoft YaHei",Arial; padding-bottom:10px;
+}
+.intro-pub h4 span{
+    background:#d65156; color:#fff; padding:0 2px; font-size:16px;
+}
+.intro-pub ul li{
+    float:left;width:348px;
+}
+.intro-pub ul li a{
+    font-size:13px; color:#555555; line-height:25px;font-family:"Microsoft YaHei",Arial;
+}
+.intro-pub ul li a:hover{
+    color:#d65156; text-decoration:underline;
+}
 .query{
     width:338px; height:183px; float:left;
 }
@@ -43,3 +68,124 @@
 .query ul li .check{
     background:#ffec48; color:#1b1b1b; font-size:18px; font-weight:bold;border-radius:50px; padding:5px 10px;
 }
+/* 中间 */
+.kt-policy-center{
+    width:1000px; height:183px; float:left; border-bottom:1px #d65156 dashed;
+}
+.policy-centerA{
+    width:283px; height:183px; float:left;
+}
+.policy-centerA h4{
+    font-size:20px; color:#252525; text-align:center;font-family:"Microsoft YaHei",Arial; padding-top:15px;font-weight: bold;
+}
+.policy-centerA li{
+    float:left; margin-right:21px; margin-bottom:10px;
+}
+.policy-centerA .mz{
+    margin-right: 0;
+}
+.policy-centerA li a{
+    width:80px; height:30px; display:block; background:#e2a4a6;font-family:"Microsoft YaHei",Arial; font-size:12px; color:#555; text-align:center; line-height:30px;border-radius:2px;
+}
+.policy-centerA li a:hover{
+    background:#d65156; text-decoration:underline;transition:all 0.3s linear; color:#fff;
+}
+.policy-centerB{
+    width:348px; height:183px; float:left; padding-left:30px;
+}
+.policy-centerB h4{
+    font-size:14px; color:#252525;font-family:"Microsoft YaHei",Arial; padding-bottom:10px;
+}
+.policy-centerB h4 span{
+    background:#d65156; color:#fff; padding:0 2px; font-size:16px;
+}
+.policy-centerB ul li{
+    float:left;width:348px;
+}
+.policy-centerB ul li a{
+    font-size:13px; color:#555555; line-height:25px;font-family:"Microsoft YaHei",Arial;
+}
+.policy-centerB ul li a:hover{
+    color:#d65156; text-decoration:underline;
+}
+.policy-centerC{
+    width:338px; height:183px; float:left;
+}
+.policy-centerC ul li{
+    float:left;width:74px;font-size:16px;font-family:"Microsoft YaHei",Arial; color:#555; line-height:25px; background:#ffba34;border-radius:50px; margin-right:10px; text-align:center; font-weight:bold; color:#333;
+}
+.policy-centerC ul .edu{
+    padding-top:17px;font-size:13px; font-weight:normal;border-radius:2px; line-height:16px; background:#a073d3; color:#fff; height:30px; margin-top:10px; margin-bottom:10px;box-sizing: content-box;
+}
+.policy-centerC ul .edu-btnA{
+    width: 150px;
+}
+.policy-centerC ul .edu-btnA a{
+    width:150px; height:40px; background:#dd4d57; display:block; font-weight:bold; font-size:16px; color:#fff; text-align:center;border-radius:50px; line-height:40px;
+}
+.policy-centerC ul .edu-btnA a:hover{
+    transition:all 0.3s linear; background:#3e2f30;text-decoration:underline;
+}
+.policy-centerC ul .edu-btnB{
+    width: 150px;
+}
+.policy-centerC ul .edu-btnB a{
+    width:150px; height:40px; background:#dd9f0a; display:block; font-weight:bold; font-size:16px; color:#fff; text-align:center;border-radius:50px; line-height:40px;
+}
+.policy-centerC ul .edu-btnB a:hover{
+    transition:all 0.3s linear; background:#3e2f30;text-decoration:underline;
+}
+/* 底部 */
+.policy-bottom{
+    width:1000px; height:250px; float:left; padding-top:20px;box-sizing: content-box;
+}
+.policy-bottom h4{
+    font-size:18px; color:#252525; text-align:center;font-family:"Microsoft YaHei",Arial;margin-bottom: 20px;font-weight: bold;
+}
+.policy-bottomA{
+    width:488px; height:240px; float:left;
+}
+.policy-bottomA>div{
+    width:456px; height:150px; float:left; border:#bfbfbf solid 1px; padding:15px;box-sizing: content-box;
+}
+.policy-bottomA>div ul{
+    margin:0; padding:0;width:456px; height:150px;
+}
+.policy-bottomA>div ul li{
+    width:370px; line-height:30px;font-family:"Microsoft YaHei",Arial; font-size:12px; color:#555555; float:left;
+}
+.policy-bottomA>div ul .policy-bottoma{
+    width: 80px;
+}
+.policy-bottomA>div ul li a{
+    background:#d65156;border-radius:2px; width:80px; height:22px;font-family:"Microsoft YaHei",Arial; font-size:12px; color:#fff; display:block; text-align:center; line-height:22px;
+}
+.policy-bottomA>div ul li a:hover{
+    background:#233b51; text-decoration:underline;transition:all 0.3s linear;
+}
+.policy-bottomB{
+    float: right;
+}
+/* 最底部 */
+.policy-bb{
+    width:1000px; height:55px; float:left; font-size:14px; text-align:center; line-height:26px;
+}
+.policy-bb img{
+    display: block;
+    margin: auto;
+}
+/*  */
+.wcgno1{
+    position:fixed;left:-100%;top: 0; width: 100%;height:100%;overflow:scroll;background: rgba(0,0,0,0.5);z-index: 61542;transition: all 0.5s;text-align: center;
+}
+.wcgno1 img{
+    width: 1000px;
+}
+
+
+
+
+
+
+
+
