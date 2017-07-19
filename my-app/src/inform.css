@@ -1,0 +1,75 @@
+
+.lyx_inform{
+    width: 100%;
+    background: #f5f6f7;
+}
+.lyx_inform h3{
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 36px;
+    margin-bottom: 28px;
+    color: #272636;
+}
+.lyx_inform h3 span{
+    font-size: 40px;
+    color: #fff;
+    background: #ef3737;
+}
+.lyx_inform p{
+    text-align: center;
+}
+.lyx_regi{
+    font-size: 24px;
+    color: #272636;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.lyx_month,.lyx_day{
+    width: 86px;
+    height: 86px;
+    background: #272636;
+    border-radius: 3px;
+    display:inline-block;
+    color: #fff;
+    font-size: 54px;
+    text-align: center;
+    line-height: 86px;
+}
+.lyx_month{
+    margin-right: 10px;
+}
+.lyx_day{
+    margin: 0 10px;
+}
+.lyx_time{
+    font-size: 20px;
+    color: #272636;
+}
+.lyx_sub{
+    height: 20px;
+    line-height: 20px;
+    color: #272636;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.lyx_enr{
+    display: inline-block;
+    width: 300px;
+    height: 60px;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 34px;
+    color: #ef3737;
+    background: #fff799;
+}
+.lyx_enr:hover{
+    color: #ef3737;
+    text-decoration: none;
+}
+.lyx_en{
+    margin:28px 0 0;
+    padding-bottom: 30px;
+
+}
