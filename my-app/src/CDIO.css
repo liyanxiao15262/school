@@ -10,6 +10,8 @@
     padding:40px 0  10px;
 }
 .lyx_cdio p{
+    width: 1000px;
+    margin: 0 auto;
     text-align: center;
     font-size: 13px;
     color: #fff;

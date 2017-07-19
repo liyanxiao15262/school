@@ -3,7 +3,7 @@
     width: 100%;
     background: #f5f6f7;
 }
-.lyx_inform h3{
+.lyx_inform h1{
     font-weight: bold;
     font-size: 28px;
     text-align: center;
@@ -11,7 +11,8 @@
     margin-bottom: 28px;
     color: #272636;
 }
-.lyx_inform h3 span{
+.lyx_inform h1 span{
+    font-weight: normal;
     font-size: 40px;
     color: #fff;
     background: #ef3737;
@@ -69,7 +70,21 @@
     text-decoration: none;
 }
 .lyx_en{
-    margin:28px 0 0;
-    padding-bottom: 30px;
+    display: block;
+    width: 300px;
+    cursor: pointer;
+    padding: 28px 0 30px;
+    margin-left: 510px;
 
+
+    border-radius: 6px;
+    text-align: center;
+    font-size: 34px;
+}
+.lyx_name{
+    font-size: 24px;
+    color: #272636;
+    font-weight: normal;
+    margin-bottom: 5px;
+    text-align: center;
 }

@@ -26,4 +26,12 @@
 .lyx_nav li a{
     color: #fff;
     font-size: 13px;
+    padding: 5px 0;
+}
+.lyx_nav li:hover{
+    text-decoration:underline;
+    background:#3e3d4d;
+}
+.lyx_nav li a:hover{
+    color: #f13547;
 }

@@ -10,8 +10,8 @@ class Center extends Component{
         super();
         this.state={
             title:"主考院校专业查询中心",
-            tit:[{con:"化学工程"},{con:"化学工程"},{con:"机械工程"},{con:"信息工程"},{con:"经济管理"},{con:"人文"},{con:"材料科学工程"},{con:"材料科学工程"},{con:"安全工程"},{con:"外语系"},{con:"数理系"}],
-            arr:[{di:"化学工程系"},{di:"化学工程系"},{di:"化学工程系"},{di:"化学工程系"},{di:"化学工程系"},{di:"化学工程系"},{di:"化学工程系"},{di:"化学工程系"},{di:"化学工程系"},{di:"化学工程系"},{di:"化学工程系"}]
+            tit:[{con:"化学工程"},{con:"机械工程"},{con:"信息工程"},{con:"经济管理"},{con:"人文"},{con:"材料科学工程"},{con:"安全工程"},{con:"外语系"},{con:"数理系"}],
+            arr:[{di:"化学工程系"},{di:"化学工程系"},{di:"化学工程系"},{di:"化学工程系"},{di:"化学工程系"},{di:"化学工程系"},{di:"化学工程系"},{di:"化学工程系"},{di:"化学工程系"}]
         }
     }
     render(){
@@ -20,7 +20,7 @@ class Center extends Component{
             for(var i = 0; i < 6; i++) {
                 res.push(<tr key={i}>
                     {this.state.arr.map(function(x,i){
-                        return <th key={i}>{x.di}</th>
+                        return <th key={i}><a href="">{x.di}</a></th>
                     })
             }
                     </tr>)

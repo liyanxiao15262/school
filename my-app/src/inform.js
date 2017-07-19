@@ -10,6 +10,7 @@ class Inform extends Component {
         this.state={
             tit:"重要通知：",
             start:"2017年北京石油化工学院招生报名开始啦!",
+            name:"北京石油化工学院学籍注册",
             mon:"7",
             month:"月",
             day:"19",
@@ -20,7 +21,8 @@ class Inform extends Component {
     }
     render(){
         return <div className="lyx_inform">
-                <h3>{this.state.tit}<span>{this.state.start}</span></h3>
+                <h1><span>{this.state.tit}</span>{this.state.start}</h1>
+                <h3 className="lyx_name">{this.state.name}</h3>
 i               <p className="lyx_time">
                     <span  className="lyx_month">{this.state.mon}</span>
                     <span>{this.state.month}</span>
@@ -28,7 +30,7 @@ i               <p className="lyx_time">
                     {this.state.date}
                 </p>
                 <p className="lyx_sub">{this.state.info}</p>
-                <p className="lyx_en"><a href="" className="lyx_enr">{this.state.enter}</a></p>
+                <div className="lyx_en"><a href="" className="lyx_enr">{this.state.enter}</a></div>
             </div>
     }
 };

@@ -15,7 +15,8 @@ import Center from './center';
 import Vappreciate from './Vappreciate'
 import Scenery from './Scenery';
 import Abroad from './Abroad';
+import Bot from './foot';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<div><Nav /><Banner/><Introduction/><Recommend/><Policy/><Inform/><Cdio/><Vappreciate/><Scenery/><Score/><Abroad/><Work/><Center/></div>, document.getElementById('root'));
+ReactDOM.render(<div><Nav /><Banner/><Introduction/><Recommend/><Policy/><Inform/><Cdio/><Vappreciate/><Scenery/><Score/><Abroad/><Work/><Center/><Bot/></div>, document.getElementById('root'));
 registerServiceWorker();

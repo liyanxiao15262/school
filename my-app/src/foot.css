@@ -1,0 +1,19 @@
+.lyx_foot{
+    width: 100%;
+    background: #004B85;
+    height: 310px;
+}
+.lyx_foot div{
+    width: 1000px;
+    margin: 0 auto;
+}
+.lyx_foot img{
+    display: block;
+    margin: 0 auto;
+}
+.lyx_foot p{
+    font-size: 13px;
+    color: #fff;
+    text-indent: 26px;
+    line-height: 25px;
+}
