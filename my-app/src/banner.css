@@ -2,8 +2,17 @@
     width: 100%;
     height: 500px;
 }
-.lyx_box{
+.lyx_banner{
     position: relative;
+}
+.lyx_box{
+    width: 1000px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -500px;
+    background: #323230;
 }
 .lyx_history{
     position: absolute;
