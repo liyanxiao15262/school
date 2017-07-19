@@ -13,7 +13,9 @@ import Score from './score';
 import Work from './work';
 import Center from './center';
 import Vappreciate from './Vappreciate'
+import Scenery from './Scenery';
+import Abroad from './Abroad';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<div><Nav /><Banner/><Introduction/><Recommend/><Policy/><Inform/><Cdio/><Score/><Work/><Center/></div>, document.getElementById('root'));
+ReactDOM.render(<div><Nav /><Banner/><Introduction/><Recommend/><Policy/><Inform/><Cdio/><Vappreciate/><Scenery/><Score/><Abroad/><Work/><Center/></div>, document.getElementById('root'));
 registerServiceWorker();
