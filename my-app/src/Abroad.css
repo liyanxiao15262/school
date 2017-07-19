@@ -37,3 +37,9 @@
 .ab-check:hover{
     background:#fff;color: #272636;text-decoration: underline;transition: all 0.2s linear;
 }
+.wcgno1{
+    position:fixed;left:-100%;top: 0; width: 100%;height:100%;overflow:scroll;background: rgba(0,0,0,0.5);z-index: 61542;transition: all 0.5s;
+}
+.wcgno1 img{
+    width: 1000px;margin: auto;
+}

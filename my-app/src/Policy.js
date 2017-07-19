@@ -18,17 +18,11 @@ class Policy extends Component {
                 {"t":"[2016-06-13]","c":"2013-2015年各省录取分数"},
                 {"t":"[2016-06-13]","c":"2013-2015年各省录取分数"},
                 {"t":"[2016-06-13]","c":"2013-2015年各省录取分数"}
-            ],
-            boo:false
+            ]
         }
     }
     handleMove(){
-        // console.log(this.refs)
         this.refs.wcgno1.style.left="0px";
-        var _this=this;
-        this.setState({
-            boo:true
-        })
     }
     handleBack(){
         this.refs.wcgno1.style.left="-100%";
