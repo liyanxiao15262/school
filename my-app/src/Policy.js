@@ -32,7 +32,6 @@ class Policy extends Component {
     }
     handleBack(){
         this.refs.wcgno1.style.left="-100%";
-
     }
     render(){
         return (
@@ -65,7 +64,7 @@ class Policy extends Component {
                             <ul>
                                 {
                                     this.state.plans.map((x,i)=>{
-                                        return <li key={i} className={i%3==2?"mz":""}><a href="javascript:;">{x}</a></li>
+                                        return <li key={i} className={i%3===2?"mz":""}><a href="javascript:;">{x}</a></li>
                                     })
                                 }
                             </ul>

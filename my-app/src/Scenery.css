@@ -1,0 +1,49 @@
+.kt-scenery{
+    width:100%; height:550px; margin:0 auto; background:#fde6af;
+}
+.kt-scenery-box{
+    width:1000px; height:1000px; margin:0 auto; text-align:center;
+}
+.kt-scenery-box h5{
+    font-size:16px; color:#333; font-weight:normal; padding:40px 0 0 0;
+}
+.kt-scenery-box h2{
+    font-size:48px; color:#333; font-weight:bolder;padding:10px 0;
+}
+.kt-scenery-box h1{
+    font-size:16px; color:#fff; font-weight:normal;padding:5px 0; background:#ff6868;border-radius:100px; width:550px; display:block; margin:0 auto; margin-bottom:30px;
+}
+.scenery-a{
+    width:240px; height:260px;border-radius:10px; padding-top:30px;float:left; margin-right:10px;box-sizing: content-box;
+    background: url(http://www.bipt.edu.cn/images/content/2014-11/20141104092233046964.jpg) no-repeat left -20px;background-size:100% 120%;
+}
+.scenery-b{
+    width:240px; height:260px;border-radius:10px; padding-top:30px;float:left; margin-right:10px;box-sizing: content-box;
+    background: url(http://www.bipt.edu.cn/images/content/2014-11/20141104101620162434.jpg) no-repeat left -20px;background-size:100% 120%;
+}
+.scenery-c{
+    width:240px; height:260px;border-radius:10px; padding-top:30px;float:left; margin-right:10px;box-sizing: content-box;
+    background: url(http://www.bipt.edu.cn/images/content/2014-11/20141104102829354805.jpg) no-repeat left -60px;background-size:100% 140%;
+}
+.scenery-d{
+    width:240px; height:260px;border-radius:10px; padding-top:30px;float:left;box-sizing: content-box;
+    background: url(http://www.bipt.edu.cn/images/content/2014-11/20141104103410370186.jpg) no-repeat left top;background-size:100% 100%;
+}
+.scenery-a div,.scenery-b div,.scenery-c div,.scenery-d div{
+    background: rgba(255,255,255,0.6); width: 100%;height: 100%;padding-top: 30px;margin-top: -30px;border-radius: 8px;box-sizing: content-box;
+}
+.sceneryT{
+    font-size:18px; font-weight:bold; color:#333; padding:10px 0;
+}
+.sceneryAdj{
+    font-weight:bold; color:#fb254e; font-size:18px;
+}
+.sceneryPoe{
+    font-size:14px; line-height:26px; color:#222; padding-bottom:5px;
+}
+.sceneryCheck{
+    width:200px;height: 43px;text-decoration: none;border-radius: 2px;display: block;font-family: "微软雅黑";color: #FFF;line-height: 43px;text-align: center;font-size: 15px;margin: 0 auto; background:#272636; border:0;
+}
+.sceneryCheck:hover{
+    background:#fff;color: #272636;text-decoration: underline;transition: all 0.2s linear;
+}

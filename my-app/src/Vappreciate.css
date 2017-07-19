@@ -1,0 +1,36 @@
+.kt-vapp{
+    width:100%;
+}
+.kt-vapp-box{
+    width: 1000px;margin: 0 auto; overflow: hidden;padding: 40px 0;
+}
+.kt-appt{
+    width:1000px; height:auto; margin:0 auto; text-align:center;
+}
+.kt-appt h2{
+    font-size:48px; color:#333; font-weight:bolder;padding:10px 0;text-align: center;
+}
+.kt-appt h1{
+    font-size:16px; color:#fff; font-weight:normal;padding:5px 0; background:#ff6868;border-radius:100px; width: 550px;text-align: center; display:block; margin:0 auto; margin-bottom:30px;
+}
+.kt-vapp ul{
+    overflow: hidden;
+}
+.kt-vapp ul li{
+    float: left;width: 25%;text-align: center;
+}
+.kt-vapp ul li img{
+    width:90%;
+}
+.kt-vapp ul li h2{
+    font-weight: bold;
+}
+.kt-app-btn{
+    background: none;width:100%; height:90px; margin:0 auto;
+}
+.kt-app-btn a{
+    width:250px; height:50px; margin:0 auto; display:block;border-radius:2px; background:#861717; font-size:16px; text-align:center; color:#fff; line-height:50px;
+}
+.kt-app-btn a:hover{
+    transition:all 0.3s linear;border-radius:2px; background:#56555a; color:#fff; text-decoration:underline;
+}
