@@ -5,7 +5,7 @@
     width:1000px; height:580px; margin:0 auto;
 }
 .kt-recom h1{
-    font-size:40px; color:#fff; text-align:center; padding:40px 0;
+    font-size:40px; color:#fff; text-align:center; padding:40px 0;font-weight:bold;
 }
 .kt-recom ul{
     overflow: hidden;
@@ -33,6 +33,9 @@
 }
 .kt-recom .know-more a{
     width:250px; height:50px; margin:0 auto; display:block;border-radius:2px; background:#861717; font-size:16px; text-align:center; color:#fff; line-height:50px;
+}
+.kt-recom .know-more a:hover{
+    transition:all 0.3s linear;border-radius:2px; background:#ea4e54; color:#fff; text-decoration:underline;
 }
 .kt-recom .li-link:hover{
     transition:all 0.3s linear; background:#36797f;
