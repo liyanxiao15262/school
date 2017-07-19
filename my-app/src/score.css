@@ -1,0 +1,40 @@
+.lyx_score h1{
+    font-size: 40px;
+    text-align: center;
+    color: #272636;
+    font-weight: normal;
+    padding-top: 40px;
+}
+.lyx_city{
+    width: 662px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.lyx_area{
+    width: 796px;
+    padding-top: 22px;
+    margin: 0 auto;
+}
+.lyx_city li,.lyx_area li{
+    display: inline-block;
+    margin-left:22px
+}
+.lyx_city li a,.lyx_area li a{
+    background: #272636;
+    display: block;
+    border-radius: 50px;
+    font-size: 13px;
+    color: #fff;
+    width: 105px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.lyx_city li a:hover,.lyx_area li a:hover{
+    transition: all 0.3s linear;
+    background:#ef3737;
+}
+.lyx_img img{
+    display: block;
+    margin: 10px auto 0;
+}
