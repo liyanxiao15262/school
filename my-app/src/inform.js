@@ -21,7 +21,12 @@ class Inform extends Component {
     render(){
         return <div className="lyx_inform">
                 <h3>{this.state.tit}<span>{this.state.start}</span></h3>
-i               <p className="lyx_time">{this.state.mon}<span className="lyx_month">{this.state.month}</span><span className="lyx_day">{this.state.day}</span>{this.state.date}</p>
+i               <p className="lyx_time">
+                    <span  className="lyx_month">{this.state.mon}</span>
+                    <span>{this.state.month}</span>
+                    <span className="lyx_day">{this.state.day}</span>
+                    {this.state.date}
+                </p>
                 <p className="lyx_sub">{this.state.info}</p>
                 <p className="lyx_en"><a href="" className="lyx_enr">{this.state.enter}</a></p>
             </div>
