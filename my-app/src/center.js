@@ -20,7 +20,7 @@ class Center extends Component{
             for(var i = 0; i < 6; i++) {
                 res.push(<tr key={i}>
                     {this.state.arr.map(function(x,i){
-                        return <th key={i}><a href="">{x.di}</a></th>
+                        return <th key={i}><a href="javascript:;">{x.di}</a></th>
                     })
             }
                     </tr>)
