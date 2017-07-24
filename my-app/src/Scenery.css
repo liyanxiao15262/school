@@ -47,3 +47,6 @@
 .sceneryCheck:hover{
     background:#fff;color: #272636;text-decoration: underline;transition: all 0.2s linear;
 }
+.sceneryCheck:visited{
+    background:#272636;color: #FFF;
+}

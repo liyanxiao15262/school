@@ -30,7 +30,7 @@ class Scenery extends Component {
                                         <p className="sceneryT">{x.t}</p>
                                         <p className="sceneryAdj">{x.adj}</p>
                                         <p className="sceneryPoe">{x.poea}<br/>{x.poeb}<br/>{x.poec}<br/>{x.poed}</p>
-                                        <a href={x.url} className="sceneryCheck" target="_black">查看{x.t}景&gt;&gt;</a>
+                                        <a href={x.url} target="_blank" className="sceneryCheck">查看{x.t}景&gt;&gt;</a>
                                     </div>
                                 </div>
                             )
