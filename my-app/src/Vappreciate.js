@@ -80,7 +80,7 @@ class Vappreciate extends Component {
                         {
                             this.state.movie.map((x,i)=>{
                                 return <li key={i}>
-                                    <a href={x.mUrl}>
+                                    <a href={x.mUrl} target="_blank" >
                                         <img src={x.mSrc} alt="" />
                                         <h2>《{x.mName}》</h2>
                                         <p>{x.mType}</p>
