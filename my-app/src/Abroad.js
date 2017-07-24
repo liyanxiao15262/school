@@ -48,7 +48,7 @@ class Abroad extends Component {
                 {
                     this.state.abroad.map((x,i)=>{
                         return (
-                            <div className="wcgno1" key={i} ref={x.r} onClick={this.back.bind(this,x.r)}><img src={x.img}/></div>
+                            <div className="wcgno1" key={i} ref={x.r} onClick={this.back.bind(this,x.r)}><img src={x.img} alt=""/></div>
                         )
                     })
                 }

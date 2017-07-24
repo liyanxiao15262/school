@@ -19,8 +19,12 @@
 .kt-vapp ul li{
     float: left;width: 25%;text-align: center;cursor:pointer;
 }
+.kt-vapp ul li>a{
+    text-decoration: none;color: #333;
+}
 .kt-vapp ul li img{
     width:90%;
+    height: 131.58px;
 }
 .kt-vapp ul li h2{
     font-weight: bold;

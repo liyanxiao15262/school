@@ -8,10 +8,10 @@ class Scenery extends Component {
         super(props);
         this.state={
             scenery:[
-                {t:"春",adj:"春之幽",poea:"春阴垂野草青青",poeb:"时有幽花一树明",poec:"晚泊孤舟古祠下",poed:"满川风雨看潮生",c:"scenery-a"},
-                {t:"夏",adj:"夏之凝",poea:"毕竟西湖六月中",poeb:"风光不与四时同",poec:"接天莲叶无穷碧",poed:"映日荷花别样红",c:"scenery-b"},
-                {t:"秋",adj:"秋之艳",poea:"春花富红紫",poeb:"黄菊与秋宜",poec:"风劲幽香怯",poed:"露曦寒艳滋",c:"scenery-c"},
-                {t:"冬",adj:"冬之傲",poea:"大雪压青松",poeb:"青松挺且直",poec:"要知松高洁",poed:"待到雪化时",c:"scenery-d"}
+                {t:"春",adj:"春之幽",poea:"春阴垂野草青青",poeb:"时有幽花一树明",poec:"晚泊孤舟古祠下",poed:"满川风雨看潮生",c:"scenery-a",url:"http://www.bipt.edu.cn/xxgk/xyfg/48356.htm"},
+                {t:"夏",adj:"夏之凝",poea:"毕竟西湖六月中",poeb:"风光不与四时同",poec:"接天莲叶无穷碧",poed:"映日荷花别样红",c:"scenery-b",url:"http://www.bipt.edu.cn/xxgk/xyfg/48396.htm"},
+                {t:"秋",adj:"秋之艳",poea:"春花富红紫",poeb:"黄菊与秋宜",poec:"风劲幽香怯",poed:"露曦寒艳滋",c:"scenery-c",url:"http://www.bipt.edu.cn/xxgk/xyfg/48413.htm"},
+                {t:"冬",adj:"冬之傲",poea:"大雪压青松",poeb:"青松挺且直",poec:"要知松高洁",poed:"待到雪化时",c:"scenery-d",url:"http://www.bipt.edu.cn/xxgk/xyfg/48414.htm"}
             ]
         }
     }
@@ -30,7 +30,7 @@ class Scenery extends Component {
                                         <p className="sceneryT">{x.t}</p>
                                         <p className="sceneryAdj">{x.adj}</p>
                                         <p className="sceneryPoe">{x.poea}<br/>{x.poeb}<br/>{x.poec}<br/>{x.poed}</p>
-                                        <a href="javascript:;" className="sceneryCheck">查看{x.t}景&gt;&gt;</a>
+                                        <a href={x.url} target="_blank" className="sceneryCheck">查看{x.t}景&gt;&gt;</a>
                                     </div>
                                 </div>
                             )

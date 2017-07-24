@@ -8,7 +8,7 @@ class PartOne extends Component {
             <ul>
                 {
                     this.props.tc.map((x,i)=>{
-                        return <li key={i}><a href="javascript:;">{x.t}&nbsp;&nbsp;&nbsp;&nbsp;{x.c}</a></li>
+                        return <li key={i}><a href={x.url} target="_blank" rel="noopener noreferrer">{x.t}&nbsp;&nbsp;&nbsp;&nbsp;{x.c}</a></li>
                     })
                 }
             </ul>

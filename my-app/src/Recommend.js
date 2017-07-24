@@ -8,32 +8,38 @@ class Recommend extends Component {
                 {
                     "menu":"化学工程学院",
                     "menu_b":"----北京石油化工----",
-                    "con":"化学工程学院设有化学工程系、应用化学系、制药工程系和基础化学教"
+                    "con":"化学工程学院设有化学工程系、应用化学系、制药工程系和基础化学教",
+                    "url":"http://hg.bipt.edu.cn/"
                 },
                 {
                     "menu":"数理系",
                     "menu_b":"----北京石油化工----",
-                    "con":"北京石油化工学院数理系成立于2000年，目前下设数学教研室"
+                    "con":"北京石油化工学院数理系成立于2000年，目前下设数学教研室",
+                    "url":"http://www.bipt.edu.cn/pub/shuli/"
                 },
                 {
                     "menu":"经济管理学院",
                     "menu_b":"----北京石油化工----",
-                    "con":"经济管理学院是学校发展最快、学生人数最多的教学院之一"
+                    "con":"经济管理学院是学校发展最快、学生人数最多的教学院之一",
+                    "url":"http://www.bipt.edu.cn/pub/jingguan/"
                 },
                 {
                     "menu":"信息工程学院",
                     "menu_b":"----北京石油化工----",
-                    "con":"2000年在原自动化系的基础上组建信息工程学院，现设有自动化"
+                    "con":"2000年在原自动化系的基础上组建信息工程学院，现设有自动化",
+                    "url":"http://www.bipt.edu.cn/pub/xinxi/"
                 },
                 {
                     "menu":"人文社科学院",
                     "menu_b":"----北京石油化工----",
-                    "con":"人文社科学院是北京石油化工学院最具人文特色的教学院，下设文化教"
+                    "con":"人文社科学院是北京石油化工学院最具人文特色的教学院，下设文化教",
+                    "url":"http://www.bipt.edu.cn/pub/renwen/"
                 },
                 {
                     "menu":"思想政治教育中心",
                     "menu_b":"----北京石油化工----",
-                    "con":"金融财会热门专业,毕业颁发本科学历+会计学学士学位证书;工作稳定待遇好"
+                    "con":"金融财会热门专业,毕业颁发本科学历+会计学学士学位证书;工作稳定待遇好",
+                    "url":"http://www.bipt.edu.cn/pub/sizheng"
                 }
             ]
         }
@@ -47,7 +53,7 @@ class Recommend extends Component {
                         {
                             this.state.schoolRecom.map((x,i)=>{
                                 return <li key={i} className={i%3===2?"empty":""}>
-                                    <a className="li-link">
+                                    <a className="li-link" href={x.url} target="_blank">
                                         <h4>{x.menu}<br /><span>{x.menu_b}</span></h4>
                                         <p>{x.con}</p>
                                     </a>
@@ -56,7 +62,7 @@ class Recommend extends Component {
                         }
                     </ul>
                     <div className="know-more">
-                        <a>了解更多院系详情>></a>
+                        <a href="http://hg.bipt.edu.cn/" target="_blank">了解更多院系详情>></a>
                     </div>
                 </div>
             </div>
