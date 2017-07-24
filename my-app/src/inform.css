@@ -1,4 +1,6 @@
-
+*{
+    text-decoration: none;
+}
 .lyx_inform{
     width: 100%;
     background: #f5f6f7;
@@ -54,7 +56,7 @@
     font-size: 20px;
     margin-top: 20px;
 }
-.lyx_enr{
+#lyx_enr{
     display: inline-block;
     width: 300px;
     height: 60px;
@@ -65,10 +67,19 @@
     color: #ef3737;
     background: #fff799;
 }
-.lyx_enr:hover{
+#lyx_enr:hover{
     color: #ef3737;
     text-decoration: none;
 }
+#lyx_enr:active{
+    color: #ef3737;
+    text-decoration: none;
+}
+#lyx_enr:visited{
+    color: #ef3737;
+    text-decoration: none;
+}
+
 .lyx_en{
     display: block;
     width: 300px;

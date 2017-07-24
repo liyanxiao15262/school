@@ -21,7 +21,7 @@
     border: 1px solid #333;
     font-weight: bold;
 }
-.table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+.table-bordered>thead>tr>th, .table-bordered>thead>tr>th {
     text-align: center;
 }
 .table>thead:first-child>tr:first-child>th{
@@ -32,22 +32,24 @@
     background: #2eafbb;
     color: #fff;
     font-size: 18px;
+    width: 110px;
 }
-.table-bordered>tbody>tr>th {
+.table-bordered>tbody>tr>td {
     border: 1px solid #333;
     text-align: center;
     font-size: 12px;
     padding: 14px 0;
+    color: #000;
 }
-th{
+td{
     font-weight: normal;
 }
 .table-striped>tbody>tr:nth-of-type(odd){
     background: #f3f3f3;
 }
-.table-striped>tbody>tr>th>a{
+.table-striped>tbody>tr>td>a{
     color: #000;
 }
-.table-striped>tbody>tr>th>a:hover{
+.table-striped>tbody>tr>td>a:hover{
     color: red;
 }

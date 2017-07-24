@@ -20,7 +20,7 @@ class Inform extends Component {
         }
     }
     render(){
-        return <div className="lyx_inform">
+        return <div className="lyx_inform lyx_aaa">
                 <h1><span>{this.state.tit}</span>{this.state.start}</h1>
                 <h3 className="lyx_name">{this.state.name}</h3>
 i               <p className="lyx_time">
@@ -30,7 +30,7 @@ i               <p className="lyx_time">
                     {this.state.date}
                 </p>
                 <p className="lyx_sub">{this.state.info}</p>
-                <div className="lyx_en"><a href="" className="lyx_enr">{this.state.enter}</a></div>
+                <div className="lyx_en"><a target="_blank" id="lyx_enr" href="http://wpa.qq.com/msgrd?v=3&uin=765483472&site=qq&menu=yes">{this.state.enter}</a></div>
             </div>
     }
 };

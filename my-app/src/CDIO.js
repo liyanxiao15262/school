@@ -23,7 +23,8 @@ class Cdio extends Component {
                     <p>{this.state.cons}</p>
                     <p>{this.state.cos}</p>
                     <h4>{this.state.pro}</h4>
-                    <div className="lyx_un"><a href="">{this.state.school}</a></div>
+                    <div className="lyx_un"><a href="http://www.bipt.edu.cn/xxgk/xxjs/index.htm" target="_black">{this.state.school}</a>
+        </div>
                 </div>
     }
 };
