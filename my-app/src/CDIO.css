@@ -52,3 +52,7 @@
     transition: 0.5s;
     background: #56555a;
 }
+.lyx_un a:visited{
+    border: 0;
+    text-decoration: none;
+}

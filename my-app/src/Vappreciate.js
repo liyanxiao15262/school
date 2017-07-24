@@ -81,7 +81,7 @@ class Vappreciate extends Component {
                     </ul>
                 </div>
                 <div className="kt-app-btn">
-                    <a href="javascript:;" id="wdxlannc">查看更多视频&gt;&gt;</a>
+                    <a href="http://zhaosheng.bipt.edu.cn/content/bipt/a23f246d-bd23-11e6-aaf1-00ff1080fe0a.htm" id="wdxlannc">查看更多视频&gt;&gt;</a>
                 </div>
             </div>
         )

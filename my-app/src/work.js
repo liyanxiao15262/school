@@ -29,7 +29,8 @@ class Work extends Component{
                             })
                         }
                     </ul>
-                    <a href="javascript:;" className="lyx_link">{this.state.link}</a>
+                    {/*官网的就业服务无法访问*/}
+                    <a href="javascript:;" id="lyx_link">{this.state.link}</a>
                 </div>
                 </div>
     }

@@ -21,13 +21,12 @@ class Nav extends Component {
     }
     componentDidMount(){
         let btn=document.getElementsByClassName("a");
-        console.log(btn.length);
-        var tim=null;
-        var speed=0;
-        for(var i=0;i<btn.length;i++){
+        let tim=null;
+        let speed=0;
+        for(let i=0;i<btn.length;i++){
             btn[i].index=i;
             btn[i].onclick=function () {
-               this.index==0?move(594):null;
+                this.index==0?move(594):null;
                 this.index==1?move(1164):null;
                 this.index==2?move(1744):null;
                 this.index==3?move(2614):null;
@@ -49,7 +48,6 @@ class Nav extends Component {
                 } else {
                     window.scrollBy(0, speed)
                 }
-                console.log(numScro,speed)
             }, 20)
         }
     }
@@ -62,7 +60,9 @@ class Nav extends Component {
                 <ul className="lyx_nav">
                     <div className="lyx_Box">
                         {this.state.arr.map(function(x,i){
-                                return <li key={i}><a className={x.class}>{x.con}</a></li>
+                                return <li key={i}>
+                                            <a className={x.class}>{x.con}</a>
+                                        </li>
                             })
                         }
                     </div>

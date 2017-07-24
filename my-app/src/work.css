@@ -52,7 +52,7 @@
     background: #272636;
     transition: all 0.3s linear;
 }
-.lyx_link{
+#lyx_link{
     display: block;
     width: 250px;
     height: 50px;
@@ -64,10 +64,18 @@
     color: #fff;
     line-height: 50px;
 }
-.lyx_link:hover{
+#lyx_link:hover{
     transition:all 0.3s linear;
     border-radius:2px;
     background:#ea4e54;
     color:#fff;
     text-decoration:underline;
+}
+#lyx_link:active{
+     color: #fff;
+     text-decoration: none;
+ }
+#lyx_link:visited{
+    color: #fff;
+    text-decoration: none;
 }

@@ -10,8 +10,7 @@ body{text-align:left;     font-family: "Microsoft YaHei",Arial;; margin:0; paddi
     a. background:#FFF; 背景颜色，根据网页效果图来设定背景颜色，如果有图片就加图片。
 	b. 字体： font-size:12px; 
 */
-
-div,form,img,ul,ol,li,dl,dt,dd,input{margin:0; padding:0; border:0; }
+div,form,img,ul,ol,li,dl,dt,dd,input,a{margin:0; padding:0; border:0; text-decoration: none}
 
 /**{margin:0; padding:0; border:0; }*/
 
