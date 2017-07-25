@@ -3,12 +3,12 @@
  */
 import React,{Component} from 'react';
 import './foot.css';
-import url from './logo.jpg';
 
 class Bot extends Component {
     constructor() {
         super();
         this.state = {
+            url:"http://www.bipt.edu.cn/pub/bipt/images/gb2013/logo.jpg",
             con: [
                 {cons: "公元1978年9月，在北京西南燕山脚下，从北京石油化工专科学校传出的第一缕书声，漫过历史的长空，凝聚成今日北京石油化工学院一页页艰辛而又闪光的记忆。"},
                 {cons: "伴随着国家改革开放的步伐，一代又一代石化学人薪火相传、荜路蓝缕，谱写出一曲曲奋进的绚丽华章。如今的北京石油化工学院已成为能适应国家支柱产业和首都经济与社会发展需要的，以工为主，理、工、经、管、文相结合，多学科相互渗透、协调发展、具有鲜明工程实践特色的普通高等学校。"},
@@ -22,7 +22,7 @@ class Bot extends Component {
     render(){
         return <div className="lyx_foot">
                     <div>
-                        <img src={url} alt=""/>
+                        <img src={this.state.url} alt=""/>
                         {this.state.con.map(function(x,i){
                                 return <p key={i}>{x.cons}</p>
                             })
