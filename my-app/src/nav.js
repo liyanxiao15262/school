@@ -29,10 +29,10 @@ class Nav extends Component {
                 this.index==0?move(594):null;
                 this.index==1?move(1164):null;
                 this.index==2?move(1744):null;
-                this.index==3?move(2614):null;
-                this.index==4?move(3331):null;
-                this.index==5?move(3985):null;
-                this.index==6?move(4535):null;
+                this.index==3?move(3164):null;
+                this.index==4?move(3881):null;
+                this.index==5?move(4535):null;
+                this.index==6?move(5085):null;
             }
         }
         
