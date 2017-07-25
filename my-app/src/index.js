@@ -18,7 +18,8 @@ import Abroad from './Abroad';
 import Bot from './foot';
 import Fix from './fixed';
 import NorthStone from './NorthStone';
+import Talk from './qq';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<div><Nav /><Banner/><Introduction/><Recommend/><Policy/><Inform/><Cdio/><Vappreciate/><Scenery/><Score/><Abroad/><Work/><Center/><Bot/><Fix/></div>, document.getElementById('root'));
+ReactDOM.render(<div><Nav /><Banner/><Introduction/><Recommend/><Policy/><NorthStone/><Inform/><Cdio/><Vappreciate/><Scenery/><Score/><Abroad/><Work/><Center/><Bot/><Fix/><Talk/></div>, document.getElementById('root'));
 registerServiceWorker();

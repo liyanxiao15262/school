@@ -3,3 +3,94 @@
     bottom: 5%;
     right: 2%;
 }
+.ktt_talk{
+    position: fixed;
+    width: 340px;
+    height: 150px;
+    background: #f4f7fc;
+    border-radius: 5px;
+    left: 200px;
+    bottom:200px;
+    cursor: move;
+    display: none;
+    z-index: 999;
+}
+.ktt_talk h2{
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #a1f4ff;
+    border-bottom: 1px solid #6ca9c6;
+    background:#6fbff2;
+    padding-left: 8px;
+}
+.ktt_talk h2 .kt_t{
+    font-size: 14px;
+    color: #fff;
+}
+.ktt_talk .kt_close{
+    float: right;
+    width: 40px;
+    height: 18px;
+    line-height: 15px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #99dcff;
+    border-top: none;
+    font-size: 16px;
+    color: #fff;
+    background: transparent;
+}
+.ktt_talk .kt_help{
+    height: 90px;
+}
+.ktt_talk .kt_help .tx{
+    float: left;
+    width: 70px;
+    height: 70px;
+    box-sizing: border-box;
+    padding: 1px;
+    border: 1px solid #82a0b8;
+    background: #e2ffff;
+    margin: 10px 0 0 8px;
+}
+.ktt_talk .kt_help .tx img{
+    width: 66px;
+    height: 66px;
+    display: block;
+}
+.ktt_talk .kt_help p{
+    float: left;
+    width: 240px;
+    height: 90px;
+    padding-top: 10px;
+    font-size: 12px;
+    line-height: 32px;
+    padding-left: 10px;
+}
+.ktt_talk h3{
+    height: 30px;
+    background: #afddff;
+    border-top: 1px solid #d7f6ff;
+}
+.ktt_talk h3 .kt_next{
+    float: right;
+    width: 67px;
+    height: 19px;
+    margin-top: 4px;
+    margin-right: 7px;
+    border: 1px solid #6991b5;
+    background: #b5d6f9;
+    color: #1b3d60;
+}
+.ktt_talk h3 a{
+    float: right;
+    width: 66px;
+    height: 19px;
+    margin-top: 4px;
+    margin-right: 5px;
+    border:1px solid #469fcb;
+    text-align: center;
+    line-height: 17px;
+    font-size: 14px;
+    background: #71ccfb;
+}
