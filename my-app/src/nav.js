@@ -35,6 +35,7 @@ class Nav extends Component {
                 this.index==6?move(4535):null;
             }
         }
+        
         function  move(numScro) {
             clearInterval(tim);
             tim = setInterval(function () {
